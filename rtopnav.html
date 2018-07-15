@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body{
+			margin:0;
+		}
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			background-color: #333;
+			overflow:hidden;
+		}
+
+		li{
+			float:left;
+			
+		}
+
+		.right{
+			float:right;
+		}
+
+		li>a{
+			display: block;
+			padding: 14px 16px;
+			text-decoration: none;
+			color:white;
+			text-align: center;
+
+		}
+		li>a:hover:not(.active){
+			background-color: #111;
+		}
+		.active{
+			background-color: #4caf50;
+		}
+		@media screen and (max-width: 600px) {
+			li{
+				float:none;
+			}
+			.right{
+				float:none;
+			}
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a class="active" href="#">Lorem.</a></li>
+			<li><a href="#">Magni.</a></li>
+			<li><a href="#">Quo.</a></li>
+			<li class="right"><a href="#">Nam.</a></li>
+		</ul>
+	</nav>
+	<div>
+		<h2>Lorem ipsum dolor.</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut nulla, fuga rem dolorem. A eveniet id quibusdam, fuga perferendis minima officia ipsum dolor velit illo quia, totam optio voluptas, accusamus.</p>
+		<p>Incidunt tenetur beatae eaque voluptates corporis impedit quis illum temporibus ipsum ex nam praesentium eligendi, aspernatur, harum sapiente consequatur veritatis facere aut saepe laboriosam quidem corrupti, eius dolorum ducimus! Ipsum.</p>
+	</div>
+</body>
+</html>
